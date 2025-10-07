@@ -1,0 +1,100 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: navy;
+    color: lightpink;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: navy;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: navy;
+}
+
+/* Button */
+.btn {
+    background-color: navy;
+    color: lightpink;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000080cc; /* slightly darker navy */
+}
+
+/* Result Section */
+#result {
+    margin-top: 20px;
+    font-weight: 600;
+    color: navy;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    color: #333;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
